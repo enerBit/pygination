@@ -1,6 +1,6 @@
 [project]
 name = "pygination"
-version = "0.0.12"
+version = "0.0.13"
 description = "Simple pagination for pydantic models and SQLAlchemy Query objects"
 readme = "README.md"
 authors = [
