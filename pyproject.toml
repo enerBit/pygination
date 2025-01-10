@@ -14,4 +14,4 @@ build-backend = "hatchling.build"
 line-length = 119
 
 [dependency-groups]
-dev = ["mypy"]
+dev = ["mypy", "ruff"]
