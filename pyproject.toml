@@ -12,3 +12,6 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 [tool.ruff]
 line-length = 119
+
+[dependency-groups]
+dev = ["mypy"]
