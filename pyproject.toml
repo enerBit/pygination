@@ -1,0 +1,17 @@
+[project]
+name = "pygination"
+version = "0.0.12"
+description = "Simple pagination for pydantic models and SQLAlchemy Query objects"
+readme = "README.md"
+authors = [{ name = "Enerbit", email = "escribenos@enerbit.co" }]
+requires-python = ">=3.7"
+dependencies = ["SQLAlchemy", "pydantic"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[tool.ruff]
+line-length = 119
+
+[dependency-groups]
+dev = ["mypy", "ruff"]
