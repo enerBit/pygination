@@ -3,8 +3,19 @@ name = "pygination"
 version = "0.0.12"
 description = "Simple pagination for pydantic models and SQLAlchemy Query objects"
 readme = "README.md"
-authors = [{ name = "Enerbit", email = "escribenos@enerbit.co" }]
+authors = [
+  { name = "pablete", email = "jtamayoh@gmail.com" },
+  { name = "mike-diomedes", email = "michael.guzman.personal@gmail.com"},
+  { name = "jdata", email = "jdmoralesar@gmail.com"}
+]
+maintainers = [
+  { name = "pablete", email = "jtamayo@enerbit.co" },
+]
 requires-python = ">=3.7"
+Homepage = "https://github.com/enerBit/pygination"
+Repository = "https://github.com/enerBit/pygination.git"
+Issues = "https://github.com/enerBit/pygination/issues"
+
 dependencies = ["SQLAlchemy", "pydantic"]
 
 [build-system]
