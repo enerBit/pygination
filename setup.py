@@ -18,10 +18,9 @@ from setuptools import find_packages, setup
 VERSION = "0.0.12"
 NAME = "pygination"
 AUTHOR = "Enerbit"
-AUTHOR_EMAIL = "jdmoralesar@gmail.com"
+AUTHOR_EMAIL = "escribenos@enerbit.co"
 DESCRIPTION = "Simple pagination for pydantic models and SQLAlchemy Query objects"
-PROJECT_URL = "https://github.com/jdmoralesar/pygination"
-DOWNLOAD_URL = "https://github.com/jdmoralesar/pygination/archive/refs/tags/0.0.1.tar.gz"
+PROJECT_URL = "https://github.com/enerbit/pygination"
 
 here = path.abspath(path.dirname(__file__))
 
@@ -39,7 +38,6 @@ setup(
     long_description=long_description,  
     long_description_content_type="text/markdown",
     url=PROJECT_URL,
-    download_url=DOWNLOAD_URL,
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     classifiers=[
